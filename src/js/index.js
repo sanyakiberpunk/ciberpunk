@@ -1,0 +1,14 @@
+import "../scss/style.scss";
+import "./swipers";
+import "./swiper";
+import "./swiper-2";
+import "./header__menu-button";
+import "./menu-container__button-X";
+import "./read-more-button";
+import "./icon_call";
+import "./modal-feed__button-X";
+import "./modal-call_button-X";
+import "./icon_write";
+import "./keydown";
+import "./modal-feed__submit";
+import "./modal-call__submit";

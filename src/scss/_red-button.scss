@@ -1,0 +1,14 @@
+.red-button {
+  width: 40px;
+  height: 40px;
+  background-color: $buttons-background;
+  border-radius: 50%;
+  border: 0px;
+  cursor: pointer;
+  display: block;
+  transition: background-color 300ms;
+}
+
+.red-button:hover {
+  background-color: #ab073a;
+}

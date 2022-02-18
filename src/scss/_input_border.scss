@@ -1,0 +1,9 @@
+.input_border {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input_border:focus {
+  border-color: $decoration-background;
+}

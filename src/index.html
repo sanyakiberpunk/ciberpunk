@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="descriprion" content="ремонт техники Dell">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>CPS</title>
+</head>
+<body>
+
+<!--Модалка с полями-->
+
+    <div class="modal-feed__container">
+        <button class="modal-feed__button-X red-button icon_X"></button>
+        <form action="#" method="#" class="modal-feed__form">
+          <h2 class="modal-feed__header">Обратная связь</h2>
+          <input type="text" name="name" required autofocus placeholder="Имя" class="input_border">
+          <input type="tel" name="phone" required placeholder="Телефон" class="input_border">
+          <input type="email" name="email" required placeholder="Электронная почта" class="input_border">
+          <textarea name="text" required placeholder="Сообщение" rows="10" class="modal-feed__text-area input_border"></textarea>
+          <p class="modal-feed__legal">
+            Нажимая “отправить”, вы даете согласие на 
+            <a class="modal-feed__link" href="#" title="заглушка">обработку персональных данных</a>
+             и соглашаетесь с нашей
+             <a class="modal-feed__link" href="#" title="заглушка"> политикой конфиденциальности</a>
+          </p>
+          <button class="modal-feed__submit"><p class="modal-feed__submit-text">Отправить</p></button>
+        </form>
+    </div>
+
+    <!--модалка для заказа звонка-->
+
+    <div class="modal-call__container">
+        <button class="modal-call__button-X red-button icon_X"></button>
+        <form action="#" method="#" class="modal-call__form">
+          <h2 class="modal-call__header">Заказать звонок</h2>
+          <input type="tel" name="phone" required placeholder="Телефон" class="input_border">
+          <p class="modal-call__legal">
+            Нажимая “отправить”, вы даете согласие на 
+            <a class="modal-call__link" href="#" title="заглушка">обработку персональных данных</a>
+             и соглашаетесь с нашей
+             <a class="modal-call__link" href="#" title="заглушка"> политикой конфиденциальности</a>
+          </p>
+          <button class="modal-call__submit"><p class="modal-call__submit-text">Отправить</p></button>
+        </form>
+      </div>
+
+    <!--Всплывающая менюшка-->
+
+    <div class="menu-container">
+		<div class="menu-container__header">
+			<button class="menu-container__button-X red-button icon_X" type="button">
+			</button>
+			<a href="">
+				<img class="manu-container__logo" src="img/logo.svg" alt="CPS логотип">
+			</a>
+			<a class="menu-container__button-2 red-button icon_search">
+			</a>
+		</div>
+		<nav class="menu-container__nav-block">
+			<ul class="menu-container__ul">
+				<li class="menu-container-item"><a href="" title="заглушка">Ремонт техники</a></li>
+				<li class="menu-container-item"><a href="" title="заглушка">Услуги и сервисы</a></li>
+				<li class="menu-container-item"><a href="" title="заглушка">Корпоративным клиентам</a></li>
+				<li class="menu-container-item"><a href="" title="заглушка">Продавцам техники</a></li>
+				<li class="menu-container-item"><a href="" title="заглушка">Партнёрам</a></li>
+				<li class="menu-container-item"><a href="" title="заглушка">Производителям</a></li>
+				<li class="menu-container-item"><a href="" title="заглушка">Наши сервисные центры</a></li>
+				<li class="menu-container-item menu-container-item-8"><a href="" title="заглушка">Контакты</a></li>
+			</ul>
+		</nav>
+		<div class="menu-container__footer-block">
+			<div class="menu-container__footer-buttons">
+				<a href="" class="menu-container__bottom-button red-button icon_call" title="заглушка">
+				</a>
+				<a href="" class="menu-container__bottom-button red-button icon_write" title="заглушка">
+				</a>
+				<a href="" class="menu-container__bottom-button red-button icon_contacts" title="заглушка">
+				</a>
+			</div>
+			<a href="" class="menu-container__mail" src="mailto:mail@cps.com">mail@cps.com</a>
+			<a href="" class="menu-container__tel" src="tel:88008908900">8 800 890 8900</a>
+			<div class="menu-container__lang-box">
+				<a class="menu-container__rus" href="" title="заглушка">RU</a>
+				<a href="menu-container__en" title="заглушка"><span lang="eng">EN</span></a>
+				<a href="menu-container__ch" title="заглушка"><span lang="ch">CH</span></a>
+			</div>
+		</div>
+	</div>
+    <header class="header">
+     <div class="header__left-box">
+        <button class="red-button icon_burger" type="button">
+        </button>
+        <img class="logo" src="img/logo.svg" alt="CPS логотип">
+     </div>
+     <div class="header__center-box-for-768px header__center-box-for-768px_none">
+         <button  href="" class="header__call_margin red-button icon_call"  title="Открыть меню">
+         </button>
+         <button href="" class="header__write_margin red-button icon_write"  title="Ссылка заглушка">
+        </button>
+         <button  href="" class="header__contacts_margin red-button icon_contacts"  title="Ссылка заглушка">
+        </button>
+        </div>
+     <div class="header__right-box">
+        <button  href="" class="header__request_margin red-button icon_request"  title="Ссылка заглушка">
+        </button>
+        <button href="" class="header__status_margin red-button icon_status" title="ссылка заглушка">
+        </button>
+     </div>
+    </header>
+
+    <!-- main -->
+
+    <main class="main">
+     <section class="main__section-1">
+        <div class="main__left-box">
+         <h1 class="main__title">Услуги и сервисы</h1>
+        </div>
+        <div class="main__right-box main__header-right-box_display-none">
+         <a href="" class="request-link">
+             <p class="text-link">Оставить заявку</p>
+             <button class="status-link__button_position red-button icon_request"></button>
+         </a>
+         <a href="" class="status-link " title="ссылка заглушка">
+          <p class="text-link">Статус ремонта</p>
+          <button class="status-link__button_position red-button icon_status"></button>
+         </a>
+        </div>
+     </section>
+     <section class="main__section-2">
+         <nav class="overflow-menu">
+             <a href="" title="заглушка" class="overflow-menu__button overflow-menu__button_hover" type="button">
+                 <p class="overflow-menu__text">Ремонтируемые бренды</p>
+            </a>
+             <a href="" title="заглушка" class="overflow-menu__button overflow-menu__button_hover" type="button">
+                 <p class="overflow-menu__text">Ремонтируемые устройства</p>
+            </a>
+             <a href="" title="заглушка" class="overflow-menu__button overflow-menu__button_hover" type="button">
+                 <p class="overflow-menu__text">Цены и услуги</p>
+            </a>
+             <a href="" title="заглушка" class="overflow-menu__button overflow-menu__button_hover" type="button">
+                 <p class="overflow-menu__text">Адреса сервисных центров</p>
+            </a>
+             <a href="" title="заглушка" class="overflow-menu__button overflow-menu__button_hover" type="button">
+                 <p class="overflow-menu__text">Специальные цены</p>
+                </a>
+                <br>
+             <a href="" title="заглушка" class="overflow-menu__button overflow-menu__button_hover" type="button"><p class="overflow-menu__text">Отзывы</p></a>
+         </nav>
+         <div class="information-box">
+           <div class="information-box_text">
+             <p class="information-box__paragraph-for-1">
+                 Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+             </p>
+           <p class="information-box__text-paragraph-2 information-box__text-paragraph-2_none">
+Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="information-box__until-1200_none">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
+           </p>
+           <button class="read-more-button">
+                <div class="read-more-button__arow"></div>
+               <p class="read-more-button__text">Читать далее</p>
+            </button>
+         </div>
+         <div class="information-box__background-image">
+         </div>
+       </div>
+     </section>
+     <section class = "swiper__block-container">
+	    <div class="swipers-title__container"><h2 class="swipers-title__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2></div>
+		<div class="swiper-container swiper__container-custom-styles">
+		<div class="swiper-wrapper swiper__wrapper-custom-style">
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/lenovo.png" class="swiper__logo" alt="lenovo"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/samsung.png" class="swiper__logo" alt="samsung"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/apple.png" class="swiper__logo" alt="apple"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/vs.png" class="swiper__logo" alt="vs"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style" href="">
+				<a class="swiper__link" href=""><img src="img/bosch.png" class="swiper__logo" alt="bosch"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/hp.svg" class="swiper__logo" alt="hp"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/acer.png" class="swiper__logo" alt="acer"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/sony.png" class="swiper__logo" alt="sony"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/lenovo.png" class="swiper__logo" alt="lenovo"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/samsung.png" class="swiper__logo" alt="samsung"></a>
+			</div>
+			<div class="swiper-slide swiper__slide-custom-style">
+				<a class="swiper__link" href=""><img src="img/apple.png" class="swiper__logo" alt="apple"></a>
+            </div>
+            <div class="swiper-slide swiper__slide-custom-style" id="swiper__fake">
+				<a class="swiper__link" href=""></a>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<button class="show-all-button show-all-button_none">
+        <div class="show-all-button__arow"></div>
+        <p class="show-all-button__text">Показать всё</p>
+    </button>
+ </section>
+ <section class = "swiper-2__block-container">
+    <div class="swipers-title__container"><h2 class="swipers-title__text">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</h2></div>
+    <div class="swiper-container swiper-2__container-custom-styles">
+    <div class="swiper-wrapper swiper-2__wrapper-custom-style">
+        <div class="swiper-slide swiper-2__slide-custom-style">
+            <a class="swiper-2__link" href=""><p class="swiper-2__text">Ремонт ноутбуков</p</a>
+        </div>
+        <div class="swiper-slide swiper-2__slide-custom-style">
+            <a class="swiper-2__link" href=""><p class="swiper-2__text">Ремонт планшетов</p></a>
+        </div>
+        <div class="swiper-slide swiper-2__slide-custom-style">
+            <a class="swiper-2__link" href=""><p class="swiper-2__text">Ремонт ПК</p></a>
+        </div>
+        <div class="swiper-slide swiper-2__slide-custom-style">
+            <a class="swiper-2__link" href=""><p class="swiper-2__text">Ремонт  мониторов</p></a>
+        </div>
+        <div class="swiper-slide swiper-2__slide-custom-style" id="swiper-2__fake">
+            <a class="swiper-2__link" href=""><p class="swiper-2__text"></p></a>
+        </div>
+        <div class="swiper-slide swiper-2__slide-custom-style" id="swiper-2__fake">
+            <a class="swiper-2__link" href=""><p class="swiper-2__text"></p></a>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<button class="show-all-button-2 show-all-button_none">
+    <div class="show-all-button-2__arow"></div>
+    <p class="show-all-button-2__text">Показать всё</p>
+</button>
+</section>
+<section class = "swiper-3__block-container">
+    <div class="swipers-title__container"><h2 class="swipers-title__text">ЦЕНЫ НА УСЛУГИ</h2></div>
+    <div class="swiper-3__table-header swiper-3__table-header_none">
+        <p>Ремонтные услуги</p>
+        <p>Цена</p>
+        <p>Срок</p>
+    </div>
+    <div class="swiper-container swiper-3__container-custom-styles">
+    <div class="swiper-wrapper swiper-3__wrapper-custom-style">
+        <div class="swiper-slide swiper-3__slide-custom-style">
+            <div class="swiper-3__link">
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__service_name swiper-3__service_name_none">Ремонтные слуги</p>
+                    <p class="swiper-3__exect">Диагностика</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__price swiper-3__price_none">Цена</p>
+                    <p class="swiper-3__exect">Бесплатно</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__time swiper-3__time_none">Срок</p>
+                    <p class="swiper-3__exect">30 мин</p>
+                </div>
+                <button class="swiper-3__order-button">
+                <p class="swiper-3__order-text">ЗАКАЗАТЬ</p>
+                </button>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-3__slide-custom-style">
+            <div class="swiper-3__link">
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__service_name swiper-3__service_name_none">Ремонтные слуги</p>
+                    <p class="swiper-3__exect">Замена дисплея</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__price swiper-3__price_none">Цена</p>
+                    <p class="swiper-3__exect">1 000 ₽</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__time swiper-3__time_none">Срок</p>
+                    <p class="swiper-3__exect">30-120 мин</p>
+                </div>
+                <button class="swiper-3__order-button">
+                <p class="swiper-3__order-text">ЗАКАЗАТЬ</p>
+                </button>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-3__slide-custom-style">
+                <div class="swiper-3__link">
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__service_name swiper-3__service_name_none">Ремонтные слуги</p>
+                    <p class="swiper-3__exect">Замена полифонического динамика</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__price swiper-3__price_none">Цена</p>
+                    <p class="swiper-3__exect">1 000 ₽</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__time swiper-3__time_none">Срок</p>
+                    <p class="swiper-3__exect">30-120 мин</p>
+                </div>
+                <button class="swiper-3__order-button">
+                <p class="swiper-3__order-text">ЗАКАЗАТЬ</p>
+                </button>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-3__slide-custom-style">
+            <div class="swiper-3__link">
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__service_name swiper-3__service_name_none">Ремонтные слуги</p>
+                    <p class="swiper-3__exect">Тестирование с выдачей технического заключения</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__price swiper-3__price_none">Цена</p>
+                    <p class="swiper-3__exect">1 000 ₽</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__time swiper-3__time_none">Срок</p>
+                    <p class="swiper-3__exect">30-120 мин</p>
+                </div>
+                <button class="swiper-3__order-button">
+                <p class="swiper-3__order-text">ЗАКАЗАТЬ</p>
+                </button>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-3__slide-custom-style" href="">
+            <div class="swiper-3__link">
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__service_name swiper-3__service_name_none">Ремонтные слуги</p>
+                    <p class="swiper-3__exect">Замена программного обеспечения</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__price swiper-3__price_none">Цена</p>
+                    <p class="swiper-3__exect">1 000 ₽</p>
+                </div>
+                <div class="swiper-3__text-container">
+                    <p class="swiper-3__time swiper-3__time_none">Срок</p>
+                    <p class="swiper-3__exect">30-120 мин</p>
+                </div>
+                <button class="swiper-3__order-button">
+                <p class="swiper-3__order-text">ЗАКАЗАТЬ</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<p class="swiper-3__legal">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу.
+     Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+<a href="" title="ссылка заглушка">
+    <p class="swiper-3__offer">Получить коммерческое предложение</p>
+</a>
+</section>
+
+    </main>
+    <footer class="footer">
+        <a href="" class="footer__develop" title="ссылка заглушка">
+            <p>© 2019<br>CPS Разработано командой Apesong</p>
+        </a>
+        <a href="" class="footer__politic" title="ссылка заглушка">
+            <p>Политика конфиденциальности</p>
+        </a>
+        <a href="" class="footer__legal-info" title="ссылка заглушка">
+            <p>Информация, размещенная на данной странице, не является публичной офертой</p>
+        </a>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>

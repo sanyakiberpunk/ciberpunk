@@ -1,0 +1,54 @@
+.footer {
+  border-top: 1px solid #d9fff5;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  padding: 16px;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #7e7e82;
+  transition: 0.3s;
+  transition-property: color;
+}
+
+.footer p:hover {
+  color: $decoration-background;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    height: 105px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__develop {
+    flex-basis: 33%;
+  }
+  .footer__develop p {
+    text-align: left;
+  }
+  .footer__politic {
+    flex-basis: 33%;
+  }
+  .footer__politic p {
+    text-align: center;
+  }
+  .footer__legal-info {
+    flex-basis: 33%;
+  }
+  .footer__legal-info p {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    height: 85px;
+  }
+}

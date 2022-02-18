@@ -1,0 +1,25 @@
+.swipers-title__container {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: $secondary-background;
+  padding: 1px;
+  align-items: center;
+  border-top: 1px solid #d9fff5;
+  letter-spacing: -0.2px;
+}
+
+.swipers-title__text {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 16px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .swipers-title__container {
+    height: 56px;
+  }
+}

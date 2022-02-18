@@ -1,0 +1,195 @@
+.swiper-3__table-header_none {
+  display: none;
+  width: 100%;
+}
+
+.swiper-3__container-custom-styles {
+  height: 280px;
+  background-color: $main-background;
+  padding-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 16px;
+}
+
+.swiper-3__slide-custom-style {
+  display: flex;
+  width: 260px;
+  height: 200px;
+}
+
+.swiper-3__wrapper-custom-style {
+  padding-left: 16px;
+}
+
+// тут не забудь всё поменять или удалить для содержания
+
+.swiper-3__link {
+  box-sizing: border-box;
+  background-color: $secondary-background;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 16px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: box-shadow, transform;
+  position: relative;
+  border-radius: 6px;
+}
+
+.swiper-3__service_name,
+.swiper-3__price,
+.swiper-3__time {
+  margin: 0 0 4px 0;
+  color: #7e7e82;
+}
+
+.swiper-3__exect {
+  margin: 0;
+}
+
+.swiper-3__order-button {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 119px;
+  height: 32px;
+  cursor: pointer;
+  background-color: $buttons-background;
+  transition: 0.5s;
+  transition-property: background-color;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  padding-left: 12px;
+}
+
+.swiper-3__order-button::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/dropdown.svg");
+  background-size: 7px 9px;
+  transform: translate();
+  top: 50%;
+  right: 11px;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 8px;
+}
+
+.swiper-3__order-button:hover {
+  background-color: #ab073a;
+}
+
+.swiper-3__order-text {
+  margin: 0px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 24px;
+  color: $secondary-background;
+}
+
+.swiper-3__legal {
+  display: block;
+  max-width: 421px;
+  margin: 24px 16px 16px 16px;
+}
+
+.swiper-3__offer {
+  font-family: "TTLakes-bold";
+  display: block;
+  max-width: 421px;
+  margin: 0 16px 40px 16px;
+  transition: 0.3s;
+  transition-property: color;
+}
+
+.swiper-3__offer:hover {
+  color: $decoration-background;
+}
+
+@media (min-width: 768px) {
+  .swiper-3__table-header_none {
+    display: flex;
+  }
+  .swiper-3__table-header {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .swiper-3__table-header p:first-child {
+    flex-basis: 200px;
+    flex-grow: 2;
+  }
+  .swiper-3__table-header p:nth-child(2),
+  .swiper-3__table-header p:last-child {
+    flex-basis: 90px;
+    flex-grow: 1;
+  }
+  .swiper-3__table-header p:last-child {
+    margin-right: 80px;
+  }
+  .swiper-3__container-custom-styles {
+    height: auto;
+    padding-top: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .swiper-3__wrapper-custom-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+  }
+  .swiper-3__slide-custom-style {
+    box-sizing: border-box;
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 64px;
+    background-color: $secondary-background;
+  }
+  .swiper-3__slide-custom-style:first-child {
+    border-radius: 6px 0 0 6px;
+  }
+  .swiper-3__slide-custom-style:first-child {
+    border-radius: 0 6px 6px 0;
+  }
+  .swiper-3__link {
+    flex-direction: row;
+    height: 100%;
+    border-bottom: 1px solid #eaeaea;
+    border-radius: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .swiper-3__service_name_none,
+  .swiper-3__price_none,
+  .swiper-3__time_none {
+    display: none;
+  }
+  .swiper-3__link .swiper-3__text-container:first-child {
+    flex-basis: 200px;
+    flex-grow: 2;
+  }
+  .swiper-3__link .swiper-3__text-container:nth-child(2),
+  .swiper-3__link .swiper-3__text-container:last-of-type {
+    flex-basis: 90px;
+    flex-grow: 1;
+  }
+  .swiper-3__link .swiper-3__text-container:last-of-type {
+    margin-right: 80px;
+  }
+  .swiper-3__order-button {
+    bottom: 16px;
+    right: 0;
+  }
+}
